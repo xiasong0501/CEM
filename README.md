@@ -21,7 +21,7 @@ Download our trained models: please download our trained models via this [link](
 
 #### Conduct the experiments
 
-1. Train the classifier and run decoing-based MIA attack (for infer only, please comments )
+1. Train the classifier and run decoing-based MIA attack (for inference only, please comment)
    ` bash run_exp.sh`
 2. Run the GAN-based MIA attack
    ` python run_gan_attack.py`
@@ -35,7 +35,7 @@ Download our trained models: please download our trained models via this [link](
 5. dataset_list: dataset for experiment: `cifar10, cifar100, facescrub and Tinyimagenet`
 6. regularization: `Gaussian` means adding the noise corruption mentioned in CEM
 7. regularization_strength_list: the variance of the noise corruption, can be a list like: `"0.01 0.025 0.05 0.1 0.15"`
-8. lambd_list: 0 without using CEM and 1 for using CEM
+8. lambd_list: weight for CEM regularization strength (default 8 or 16); 0 without using CEM
 9. log_entropy: for log optimization in the  loss function.
 10. bottleneck_option_list means adding the bottleneck layer after the decoder
 
