@@ -1,0 +1,16 @@
+{
+    "dataset":{
+      "name":"facescrub",
+      "img_path": "../facescrub-dataset/48x48",
+      "model_name":"facescrub_gan",
+      "n_classes":530,
+      "gpus":"1"
+    },
+    "facescrub_gan":{
+        "lr": 5e-3,
+        "batch_size": 128,
+        "z_dim": 100,
+        "epochs": 150,
+        "n_critic": 10
+    }
+}

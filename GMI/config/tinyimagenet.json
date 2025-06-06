@@ -1,0 +1,16 @@
+{
+    "dataset":{
+      "name":"tinyimagenet",
+      "img_path": "../facescrub-dataset/48x48",
+      "model_name":"tinyimagenet_gan",
+      "n_classes":200,
+      "gpus":"1"
+    },
+    "tinyimagenet_gan":{
+        "lr": 5e-3,
+        "batch_size": 128,
+        "z_dim": 100,
+        "epochs": 80,
+        "n_critic": 10
+    }
+}

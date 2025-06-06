@@ -1,0 +1,1 @@
+from GMI import discri,generator

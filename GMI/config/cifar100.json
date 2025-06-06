@@ -1,0 +1,16 @@
+{
+    "dataset":{
+      "name":"cifar10",
+      "img_path": "../data/cifar-10-batches-py",
+      "model_name":"cifar100_gan",
+      "n_classes":100,
+      "gpus":"1"
+    },
+    "cifar100_gan":{
+        "lr": 5e-3,
+        "batch_size": 128,
+        "z_dim": 100,
+        "epochs": 150,
+        "n_critic": 10
+    }
+}
