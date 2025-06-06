@@ -6,7 +6,7 @@
 
 #### Dataset:
 
-For convience utilization, we put the dataset utilized in our experiment in this [link](https://drive.google.com/drive/folders/18TB_UHVkmHP65IaOMH3gb7VUMI7mMhHs?usp=sharing). Please put the four folders in the root folder.
+For convenience, we put the dataset utilized in our experiment in this [link](https://drive.google.com/drive/folders/18TB_UHVkmHP65IaOMH3gb7VUMI7mMhHs?usp=sharing). Please put the four folders in the root folder.
 
 ```
 1. CIFAR10
